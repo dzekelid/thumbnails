@@ -7,11 +7,27 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browsh
 x-kinRank: "7"
 x-alexaRank: "1714303"
 tags: Thumbnails
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/browshot/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Browshot - Retrieve a thumbnail image
+  x-api-slug: screenshotthumbnail-get
+  description: |-
+    Unlike the other API calls, this API sends back the thumbnail as a PNG file, not JSON. The HTTP response code indicates whether the screenshot was successful (200), or incomplete (404) or failed (404). If the screenshot failed or is not finished, a default image "Not found" is sent.
+
+    You can crop your screenshots. The crop is done first, then the thumbnail. You can take a 1024x768 screenshot, crop it to 768x768, and get it scaled down to 300x300.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg
+  humanURL: http://browshot.com/
+  baseURL: https://api.browshot.com//api/v1
+  tags: Browsers, Screenshot, Utility, Screen Capture, Mobile, Technology, SaaS, internet,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/browshot/screenshotthumbnail-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/browshot/screenshotthumbnail-get-openapi.md
 - name: Browshot - Retrieve a thumbnail image
   x-api-slug: screenshotthumbnail-get
   description: |-

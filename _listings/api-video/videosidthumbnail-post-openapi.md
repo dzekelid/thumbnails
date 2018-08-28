@@ -3,8 +3,9 @@ swagger: "2.0"
 x-collection-name: api.video
 x-complete: 0
 info:
-  title: API.Video Parameters Videos Thumbnail
-  description: Parameters videos thumbnail.
+  title: API.Video Post Videos Thumbnail
+  description: It may take up to 1h before the new thumbnail to be delivered by our
+    CDN.
   version: 1.0.0
 host: ws.api.video
 basePath: /

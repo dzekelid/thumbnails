@@ -1,15 +1,16 @@
+---
 swagger: "2.0"
 x-collection-name: SAP
-x-complete: 1
+x-complete: 0
 info:
-  title: SAP Translation Hub
-  description: to-provide-users-of-software-in-a-global-market-with-texts-in-their-own-language-translations-are-required--sap-translation-hub-enables-you-to-draw-on-saps-translation-experience-across-multiple-products-and-languages-to-propose-translations-for-short-texts-
-  contact:
-    name: SAP Translation Hub team
-    email: translationhub@sap.com
+  title: SAP Manufacturing Network Customer APIs Retrieves the thumbnail of a design
+    file
+  description: |-
+    Retrieves the thumbnail information in a collaboration room.
+    Each design file has a corresponding thumbnail file automatically generated.
   version: 1.0.0
-host: sandbox.api.sap.com
-basePath: /translationhub/api/v1
+host: hostname
+basePath: /dim/api
 schemes:
 - http
 produces:
@@ -58,3 +59,17 @@ paths:
       - Of
       - Design
       - File
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

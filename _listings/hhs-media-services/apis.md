@@ -8,11 +8,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Thumbnails
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/hhs-media-services/apis.md
 specificationVersion: "0.14"
 apis:
+- name: HHS Media Services - Get JPG thumbnail for MediaItem
+  x-api-slug: resourcesmediaidthumbnail-jpg-get
+  description: Returns the JPG thumbnail, where applicable, for the MediaItem identified
+    by the 'id'.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hhs-media-services.png
+  humanURL: https://api.digitalmedia.hhs.gov/
+  baseURL: https://api.digitalmedia.hhs.gov//api/v2
+  tags: Media, API Provider, Videos, Profiles
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/hhs-media-services/resourcesmediaidthumbnail-jpg-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/hhs-media-services/resourcesmediaidthumbnail-jpg-get-openapi.md
 - name: HHS Media Services - Get JPG thumbnail for MediaItem
   x-api-slug: resourcesmediaidthumbnail-jpg-get
   description: Returns the JPG thumbnail, where applicable, for the MediaItem identified

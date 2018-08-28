@@ -7,11 +7,147 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-
 x-kinRank: "8"
 x-alexaRank: "1965"
 tags: Thumbnails
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Manufacturing Network Customer APIs - Retrieves the thumbnail of a design
+    file
+  x-api-slug: collaborationroomscollaborationroomidthumbnails-get
+  description: |-
+    Retrieves the thumbnail information in a collaboration room.
+    Each design file has a corresponding thumbnail file automatically generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/collaborationroomscollaborationroomidthumbnails-get-openapi.md
+- name: Manufacturing Network Customer APIs - Downloads the thumbnail of a design
+    file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
+- name: Manufacturing Network Customer APIs - Retrieves the thumbnail of a design
+    file
+  x-api-slug: collaborationroomscollaborationroomidthumbnails-get
+  description: |-
+    Retrieves the thumbnail information in a collaboration room.
+    Each design file has a corresponding thumbnail file automatically generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/collaborationroomscollaborationroomidthumbnails-get-openapi.md
+- name: Manufacturing Network Customer APIs - Downloads the thumbnail of a design
+    file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
+- name: Manufacturing Network Customer APIs - Downloads the thumbnail of a design
+    file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
+- name: Manufacturing Network Customer APIs - Downloads the thumbnail of a design
+    file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
+- name: Manufacturing Network Customer APIs - Retrieves the thumbnail of a design
+    file
+  x-api-slug: collaborationroomscollaborationroomidthumbnails-get
+  description: |-
+    Retrieves the thumbnail information in a collaboration room.
+    Each design file has a corresponding thumbnail file automatically generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/collaborationroomscollaborationroomidthumbnails-get-openapi.md
+- name: Manufacturing Network Customer APIs - Retrieves the thumbnail of a design
+    file
+  x-api-slug: collaborationroomscollaborationroomidthumbnails-get
+  description: |-
+    Retrieves the thumbnail information in a collaboration room.
+    Each design file has a corresponding thumbnail file automatically generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/collaborationroomscollaborationroomidthumbnails-get-openapi.md
+- name: Manufacturing Network Partner APIs - Downloads the thumbnail of a design file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
+- name: Manufacturing Network Partner APIs - Downloads the thumbnail of a design file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
+- name: Manufacturing Network Partner APIs - Downloads the thumbnail of a design file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
+- name: Manufacturing Network Partner APIs - Downloads the thumbnail of a design file
+  x-api-slug: documentscollaborationroomscollaborationroomidthumbnaildownload-get
+  description: Downloads the thumbnail selected as the icon for a collaboration room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/sap/documentscollaborationroomscollaborationroomidthumbnaildownload-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.sap.com/index.html

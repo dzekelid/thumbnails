@@ -7,11 +7,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Thumbnails
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dropbox Content API v1 - Gets a thumbnail for an image.
+  x-api-slug: thumbnailsrootpath-get
+  description: |-
+    Gets a thumbnail for an image.
+
+    This method currently supports files with the following file extensions: .jpg, .jpeg, .png, .tiff, .tif, .gif, .bmp
+
+    Photos that are larger than 20MB in size won't be converted to a thumbnail.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api-content.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/dropbox/thumbnailsrootpath-get-openapi.md
 - name: Dropbox - Get Thumbnails
   x-api-slug: thumbnails-get
   description: /thumbnails

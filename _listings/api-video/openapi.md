@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: api.video
 x-complete: 1
@@ -59,4 +58,3 @@ paths:
       tags:
       - Videos
       - Thumbnail
----

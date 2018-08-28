@@ -7,11 +7,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Thumbnails
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Box - Get Thumbnail
+  x-api-slug: filesfile-idthumbnail-extension-get
+  description: Retrieves a thumbnail, or smaller image representation, of this file.
+    Sizes of 32x32,64x64, 128x128, and 256x256 can be returned in the .png format
+    and sizes of 32x32, 94x94, 160x160, and 320x320 can be returned in the .jpg format.
+    Thumbnails can be generated for the image and video file formats listed here.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/box/filesfile-idthumbnail-extension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/box/filesfile-idthumbnail-extension-get-openapi.md
 - name: Box - Get Thumbnail
   x-api-slug: filesfile-idthumbnail-extension-get
   description: Retrieves a thumbnail, or smaller image representation, of this file.

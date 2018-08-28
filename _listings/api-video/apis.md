@@ -8,11 +8,131 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-
 x-kinRank: "7"
 x-alexaRank: "3033257"
 tags: Thumbnails
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/apis.md
 specificationVersion: "0.14"
 apis:
+- name: api.video - Parameters Videos Thumbnail
+  x-api-slug: videosidthumbnail-parameters
+  description: Parameters videos thumbnail.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-parameters-openapi.md
+- name: api.video - Patch Videos Thumbnail
+  x-api-slug: videosidthumbnail-patch
+  description: |-
+    Pick a thumbnail from the given time code.
+
+    It may take up to 1h before the new thumbnail to be delivered by our CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-patch-openapi.md
+- name: api.video - Post Videos Thumbnail
+  x-api-slug: videosidthumbnail-post
+  description: It may take up to 1h before the new thumbnail to be delivered by our
+    CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-post-openapi.md
+- name: api.video - Parameters Videos Thumbnail
+  x-api-slug: videosidthumbnail-parameters
+  description: Parameters videos thumbnail.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-parameters-openapi.md
+- name: api.video - Patch Videos Thumbnail
+  x-api-slug: videosidthumbnail-patch
+  description: |-
+    Pick a thumbnail from the given time code.
+
+    It may take up to 1h before the new thumbnail to be delivered by our CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-patch-openapi.md
+- name: api.video - Post Videos Thumbnail
+  x-api-slug: videosidthumbnail-post
+  description: It may take up to 1h before the new thumbnail to be delivered by our
+    CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-post-openapi.md
+- name: api.video - Post Videos Thumbnail
+  x-api-slug: videosidthumbnail-post
+  description: It may take up to 1h before the new thumbnail to be delivered by our
+    CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-post-openapi.md
+- name: api.video - Post Videos Thumbnail
+  x-api-slug: videosidthumbnail-post
+  description: It may take up to 1h before the new thumbnail to be delivered by our
+    CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-post-openapi.md
+- name: api.video - Patch Videos Thumbnail
+  x-api-slug: videosidthumbnail-patch
+  description: |-
+    Pick a thumbnail from the given time code.
+
+    It may take up to 1h before the new thumbnail to be delivered by our CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-patch-openapi.md
+- name: api.video - Patch Videos Thumbnail
+  x-api-slug: videosidthumbnail-patch
+  description: |-
+    Pick a thumbnail from the given time code.
+
+    It may take up to 1h before the new thumbnail to be delivered by our CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/thumbnails/master/_listings/api-video/videosidthumbnail-patch-openapi.md
 - name: api.video - Parameters Videos Thumbnail
   x-api-slug: videosidthumbnail-parameters
   description: Parameters videos thumbnail.

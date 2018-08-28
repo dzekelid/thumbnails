@@ -3,10 +3,19 @@ swagger: "2.0"
 x-collection-name: Dropbox
 x-complete: 0
 info:
-  title: Dropbox Datastore API Get Thumbnails
-  description: /thumbnails
-  version: "1"
-host: api.dropbox.com
+  title: Dropbox Content Gets a thumbnail for an image.
+  description: |-
+    Gets a thumbnail for an image.
+
+    This method currently supports files with the following file extensions: .jpg, .jpeg, .png, .tiff, .tif, .gif, .bmp
+
+    Photos that are larger than 20MB in size won't be converted to a thumbnail.
+  termsOfService: https://www.dropbox.com/developers/reference/tos
+  contact:
+    name: Dropbox
+    url: https://www.dropbox.com/developers
+  version: 1.0.0
+host: api-content.dropbox.com
 basePath: /1
 schemes:
 - http
@@ -51,24 +60,6 @@ paths:
       - Thumbnails
       - Root
       - Path
-  /thumbnails:
-    get:
-      summary: Get Thumbnails
-      description: /thumbnails
-      operationId: thumbnails
-      x-api-path-slug: thumbnails-get
-      parameters:
-      - in: query
-        name: format
-        description: jpeg (default) or png
-      - in: query
-        name: size
-        description: 'One of the following values (default: s):valuedimensions (px)xs32x32s64x64m128x128l640x480xl1024x768'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Thumbnails
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
